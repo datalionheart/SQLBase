@@ -1,0 +1,7 @@
+USE [master]
+GO
+
+CREATE SERVER AUDIT SPECIFICATION [SAS-Login-Password-Change]
+FOR SERVER AUDIT [SQLAudit-Server-Login-Password-Change]
+ADD (LOGIN_CHANGE_PASSWORD_GROUP)
+GO

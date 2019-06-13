@@ -1,0 +1,6 @@
+USE [master]
+GO
+
+ALTER SERVER AUDIT SPECIFICATION [SAS-Login-Password-Change]
+WITH (STATE = ON)
+GO
